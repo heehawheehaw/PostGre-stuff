@@ -1,0 +1,35 @@
+general purpose and object relational database management system
+can run on multiple platforms
+free & open source software
+SQL lets you communicate and manipulate databases , maintained by ANSI standard
+There are different versionof SQL . but all must be compliant with ANSI i.e. have support of some commands
+
+can connect to postrgreSQP database using psqL, interactive terminal program
+can connect to postgreSQL database using pgAdmin , GUI
+can use to connect postgreSQL database from other applications i.e. ODBC or JDBC
+-open database connectivity
+-Java database connectivity
+[CREATE DATABASE] 
+[pg_restore -U postgres -d dvdrental C:\temp\dvdrental.tar]
+[CREATE TABLE table_name(
+column1_name datatype column_constraint)]
+query data -> 
+[SELECT column1, column2
+FROM tableName]
+[SELECT*
+FROM tablename]
+update data-> 
+[UPDATE tablename
+SET column1 = value1,
+       colums2 = value2
+WHERE condition;]
+delete data -> 
+[ DELETE FROM tablename
+WHERE condition;]
+inserting data into table -> 
+[INSERT INTO tablename(column1, column2)
+VALUES
+( value1, value2);
+select data ->
+[SELECT  column1, column2
+FROM tablename]
